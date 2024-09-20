@@ -1,0 +1,64 @@
+
+.sidebar {
+  width: 250px; 
+  height: 100vh; 
+  position: fixed;
+  top: 0;
+  left: -250px; 
+  background-color: white; 
+  padding-top: 20px;
+  transition: left 0.3s ease;
+  z-index: 1050; 
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); 
+  overflow-y: auto; 
+  border-right: 1px solid #ddd; 
+}
+
+.sidebar.open {
+  left: 0; 
+}
+
+
+.hamburger-menu {
+  position: fixed;
+  left: 15px;
+  top: 15px;
+  cursor: pointer;
+  z-index: 1100; 
+  font-size: 1.5rem; 
+}
+
+
+.sidebar ul {
+  padding-left: 0;
+}
+
+.sidebar ul li {
+  padding: 15px 20px;
+  cursor: pointer;
+  list-style-type: none;
+  font-size: 18px; 
+  font-family: 'Arial', sans-serif; 
+  color: #333;
+  transition: background-color 0.2s;
+}
+
+.sidebar ul li:hover {
+  background-color: #f8f9fa; 
+}
+
+
+.sidebar ul li a {
+  text-decoration: none;
+  color: inherit;
+  display: block; 
+}
+
+
+.close-btn {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  cursor: pointer;
+  font-size: 1.5rem;
+}

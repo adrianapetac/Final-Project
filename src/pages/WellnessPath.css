@@ -1,0 +1,26 @@
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  p {
+    text-align: center;
+    font-size: 1.2em;
+  }
+  
+  .card {
+    display: flex;
+    
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-title {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    font-size: 1.2em;
+  }
+  

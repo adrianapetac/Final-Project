@@ -1,0 +1,29 @@
+body {
+  
+  font-family: 'Arial', sans-serif; /* Adjust this to match the style you want */
+  margin: 0;
+  padding: 0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+* {
+  text-decoration: none;
+  color: inherit; /* Ensure links inherit text color from their parent elements */
+}
+h1, h2, h3, h4, h5, h6, p {
+  font-family: 'Arial', sans-serif; /* Ensure headers and paragraphs follow the same font */
+  text-decoration: none; /* Make sure no text is underlined */
+}
+
+a {
+  text-decoration: none; /* Remove underline from links */
+  color: inherit; /* Inherit the text color for links */
+}
+
+/* Additional adjustments (optional) */
+a:hover {
+  text-decoration: none; /* Ensure hover doesn't add underline */
+}

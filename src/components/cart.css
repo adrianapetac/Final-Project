@@ -1,0 +1,40 @@
+/* Cart popup styling */
+.cart-popup {
+    position: absolute;
+    top: 50px; /* Adjust the top position to align with your header */
+    right: 0;
+    background-color: white;
+    width: 300px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000; /* Make sure it's above other elements */
+  }
+  
+  .cart-content h5 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .cart-item {
+    padding: 10px 0;
+    border-bottom: 1px solid #f1f1f1;
+  }
+  
+  .cart-item p {
+    margin: 0;
+    font-size: 0.9rem;
+  }
+  
+  .cart-total {
+    text-align: right;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+  
+  .cart-popup hr {
+    margin: 10px 0;
+  }
+  
